@@ -1,6 +1,7 @@
 from timeit import timeit
 from random import randint
 
+
 def merge(list_a, list_b):
     list_sorted = []
     while list_a != [] and list_b != []:
