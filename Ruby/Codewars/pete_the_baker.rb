@@ -1,13 +1,11 @@
-=begin
-    
-codewars
-
-5 kyu
-
-Pete, the baker
-    
-=end
+#
+# codewars
+#
+# 5 kyu
+#
+# Pete, the baker
+#
 
 def cakes(recipe, available)
-    return recipe.map{|k, v| available[k]!=nil ? available[k]/v : 0}.min
+  recipe.map { |k, v| !available[k].nil? ? available[k] / v : 0 }.min
 end

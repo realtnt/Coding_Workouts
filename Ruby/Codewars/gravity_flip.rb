@@ -1,17 +1,15 @@
-=begin
-    
-codewars
-
-8 kyu
-
-Gravity Flip
-    
-=end
+#
+# codewars
+#
+# 8 kyu
+#
+# Gravity Flip
+#
 
 def flip(dir, boxes)
-    if dir == 'R' 
-      return boxes.sort { |a, b| a <=> b }
-    else
-      return boxes.sort { |a, b| b <=> a }
-    end
+  if dir == 'R'
+    boxes.sort { |a, b| a <=> b }
+  else
+    boxes.sort { |a, b| b <=> a }
+  end
 end

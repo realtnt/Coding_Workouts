@@ -1,12 +1,10 @@
-=begin
-    
-codewars
-
-7 kyu
-
-DescendingOrder    
-=end
+#
+# codewars
+#
+# 7 kyu
+#
+# Descending Order
 
 def descending_order(n)
-    return n.to_s.chars.sort.reverse.join.to_i
+  n.to_s.chars.sort.reverse.join.to_i
 end

@@ -1,13 +1,11 @@
-=begin
-    
-codewars
-
-7 kyu
-
-Vowel Count
-    
-=end
+#
+# codewars
+#
+# 7 kyu
+#
+# Vowel Count
+#
 
 def get_count(input_str)
-    input_str.count("aeiou")
+  input_str.count('aeiou')
 end
