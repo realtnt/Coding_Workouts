@@ -21,3 +21,5 @@ def solution(input, markers)
   end
   out.chomp
 end
+
+puts solution('one two three # four five six', ['#', '!'])
