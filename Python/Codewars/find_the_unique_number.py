@@ -5,7 +5,7 @@ codewars
 6 kyu
 
 Find the unique number
-    
+
 '''
 
 
